@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f4a261;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background for readability */
+    color: #333; /* Standard text color */
+}
+
+/* Header Styles */
+header {
+    background: #f4a261; /* Dark background for header */
+    color: #333; /* White text for contrast */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav a {
+    color: #333; /* White links for contrast */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: whitesmoke; /* Orange hover effect */
+}
+
+/* Main Section */
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section h2 {
+    color: #444;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Image Scroll Styles */
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.image-scroll img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add depth to images */
+}
+
+/* Hide scrollbar for cleaner look */
+.image-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.image-scroll {
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Footer Styles */
+footer {
+    background: #333; /* Match header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

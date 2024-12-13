@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhubaneswar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="typing-effect"></h1>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="places.html">Places to Visit</a>
+            <a href="culture.html">Culture and Food</a>
+        </nav>
+    </header>
+    <main>
+        <h2><b>Bhubaneswar, the capital of Odisha, is a city rich in history, culture, and tradition.</b></h2>
+        <img src="images/bg.png" alt="Bhubaneswar" class="hero-image">
+    </main>
+    <footer>
+        <p>&copy; 2024 Bhubaneswar Page</p>
+    </footer>
+
+    <script>
+        // Typing effect for the heading
+        const text = "Welcome to Bhubaneswar";
+        const typingElement = document.getElementById("typing-effect");
+        let index = 0;
+
+        function typeLetter() {
+            if (index < text.length) {
+                typingElement.textContent += text.charAt(index);
+                index++;
+                setTimeout(typeLetter, 100); // Adjust typing speed here
+            }
+        }
+
+        // Start typing effect when page loads
+        window.onload = typeLetter;
+    </script>
+</body>
+</html>
